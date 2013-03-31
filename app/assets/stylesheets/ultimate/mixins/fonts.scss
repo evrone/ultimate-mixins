@@ -5,6 +5,7 @@ $font-size_base: 11px;
 $font-family_custom: "PFDinTextCondProThin", Tahoma, Arial, Verdana, sans-serif;
 $font-family_custom_bold: "PFDinTextCondProRegular", Verdana, sans-serif;
 
+// TODO: more flexible
 @mixin font-face($family, $url-without-ext, $font-weight: normal, $font-style: normal) {
   @font-face {
     font-family: "#{$family}";
