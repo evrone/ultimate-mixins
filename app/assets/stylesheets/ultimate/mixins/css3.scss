@@ -2,8 +2,8 @@
 // http://css3pie.com/documentation/supported-css3-features/#pie-lazy-init
 
 $support-ie: true !default;
-$pie-url: asset-url("polyfills/PIE.htc", '') !default;
-$boxsizing-url: asset-url("polyfills/boxsizing.htc", '') !default;
+$pie-url: asset-url("polyfills/PIE.htc") !default;
+$boxsizing-url: asset-url("polyfills/boxsizing.htc") !default;
 
 
 @mixin pie($poll: none, $watch-ancestors: 0) {
